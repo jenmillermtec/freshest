@@ -1,0 +1,78 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+#freshness {
+    padding: 10px;
+    height: 100vh;
+    background: linear-gradient(rgba(66, 65, 65, 0.7), rgba(66, 65, 65, 0.7)), no-repeat url("./green-vegetables-on-brown-wooden-chopping-board-3952047.jpg");
+    background-size: auto;
+    background-color: rgb(45, 44, 44);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid white;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: large;
+}
+
+#main {
+    font-size: 50px;
+    display: flex;
+    border-bottom: 2px solid white;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 25vh;
+    justify-content: center;
+    font-weight: bold;
+}
+
+#underline {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 200;
+    margin: 10px;
+}
+
+.image-text-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#bread {
+    background-image: url("./human-holding-a-bread-745988.jpg");
+}
+
+#pineapple {
+    background-image: url("./green-pineapple-fruit-with-brown-framed-sunglasses-beside-1161547.jpg");
+}
+
+#pasta {
+    background-image: url("./cooked-pasta-on-brown-wooden-bowl-803963.jpg");
+}
+
+.image {
+    width: 500px;
+    background-size: cover;
+}
+
+.text {
+    width: 60vw;
+    background: linear-gradient(rgba(0, 0, 0, 1), rgb(26, 26, 26));
+    color: white;
+    padding: 75px 150px;
+}
